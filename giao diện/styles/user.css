@@ -1,0 +1,168 @@
+.left{
+    width:280px;
+    height: 500px;
+    background-color: pink;
+   
+}
+
+.user{
+    padding-top:90px;
+}
+
+.product{
+    padding-top: 90px;
+}
+.bill{
+    padding-top: 90px;
+}
+.user:hover {
+    background-color:  rgb(207, 141, 207);
+}
+
+.product:hover {
+    background-color:  rgb(207, 141, 207);
+ 
+}
+.bill:hover {
+    background-color: rgb(229, 110, 130);
+}
+
+.body{
+    position:relative;
+    bottom:490px;
+    left:300px;
+    color:rgb(84, 174, 28);
+    background-color: rgb(192, 187, 187);
+}
+.body2{
+    display:flex;
+    position:relative;
+    bottom:490px;
+    left: 300px;
+    
+    background-color: rgb(192, 187, 187);
+}
+.back{
+    width:110px;
+    height:23px;
+    border-radius: 70px;
+    position:relative;
+    bottom:480px;
+    left:300px;
+    background-color: rgb(158, 158, 179);
+   
+}
+.back:hover {
+    background-color: rgb(66, 66, 127);
+}
+.inputs{
+    position: relative;
+    bottom:470px;
+    left:380px;
+}
+.inputs input{
+    height: 40px;
+    width: 460px;
+}
+ .inputs i{
+    position: relative;
+    left: -30px;
+    z-index: 2;
+}
+
+.inputs2{
+    position: relative;
+    bottom:520px;
+    left:900px;
+}
+.inputs2 input{
+    height: 40px;
+    width: 460px;
+}
+ .inputs2 i{
+    position: relative;
+    left: -30px;
+    z-index: 2;
+}
+.chon{
+    height: 50px;
+    width:470px;
+    position:relative;
+    bottom:500px;
+    left:380px;
+}
+.right1{
+    display:flex;
+    position: relative;
+    bottom:540px;
+    left:1000px;
+    padding-left: 10px;
+ 
+  
+}
+.right1 button{
+    background-color: rgb(207, 141, 207);
+    width:100px;
+    height:30px;
+    color:white;
+}
+.right2{
+    display:flex;
+    position: relative;
+    bottom:570px;
+    left:1100px;
+    padding-left: 40px;
+}
+.right2 button{
+    background-color: rgb(207, 141, 207);
+    width:100px;
+    height:30px;
+    color: white;
+}
+.right3{
+    display:flex;
+    position: relative;
+    bottom:600px;
+    left:1200px;
+    padding-left: 60px;
+    
+}
+.right3 button{
+    background-color: rgb(207, 141, 207);
+    width:120px;
+    height:30px;
+    color: white;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    position:relative;
+    bottom:500px;
+    width:1150px;
+    left:300px;
+    bottom:570px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.cartegory{
+padding-top:100px;
+}
+.cartegory:hover {
+    background-color: rgb(207, 141, 207); ;
+}

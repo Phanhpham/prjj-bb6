@@ -1,0 +1,35 @@
+.left{
+    width:280px;
+    height: 600px;
+    background-color: pink;
+   
+}
+
+.user{
+    padding-top:90px;
+}
+
+.product{
+    padding-top: 90px;
+}
+.bill{
+    padding-top: 90px;
+}
+.user:hover {
+    background-color: rgb(229, 110, 130);
+}
+
+.product:hover {
+    background-color: rgb(229, 110, 130);
+}
+.bill:hover {
+    background-color: rgb(229, 110, 130);
+}
+
+.cartegory{
+
+    padding-top:90px;
+    }
+.cartegory:hover {
+        background-color: rgb(207, 141, 207); ;
+    }

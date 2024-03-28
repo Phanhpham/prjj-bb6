@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left{
+    width:280px;
+    height: 600px;
+    background-color: pink;
+   
+}
+
+.user{
+    padding-top:90px;
+}
+
+.product{
+    padding-top: 90px;
+}
+.bill{
+    padding-top: 90px;
+}
+.user:hover {
+    background-color: rgb(229, 110, 130);
+}
+
+.product:hover {
+    background-color: rgb(229, 110, 130);
+}
+.bill:hover {
+    background-color: rgb(229, 110, 130);
+}
+.user{
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}   
+.product{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    align-items: center;
+    margin-top: 20px;
+} 
+.bill{
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.user:hover{
+    background-color: orangered;
+    border-radius: 10px;
+}
+.product:hover{
+    background-color: orangered;
+    border-radius: 10px;
+}
+.bill:hover{
+    background-color: orangered;
+    border-radius: 10px;
+}
+.houseware{
+    width: 1230px;
+    height: 600px;
+    position:relative;
+    left:270px;
+    bottom:600px;
+    background-color: white;
+    border: 1px solid white;
+}
+.listProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornflowerblue;
+    gap: 10px;
+    font-size: 20px;
+}
+.select{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.option{
+    width: 170px;
+}
+.choice{
+    background-color: aqua;
+    color: white;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.book{
+    display: inline-flex;
+    gap: 10px;
+}
+.sit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.navba{
+    width: 1240px;
+    height: 50px;
+    background-color: lightcyan;
+    display: inline-flex;
+    gap: 600px;
+    padding-left: 50px;
+    margin-top:  30px;
+}
+table{
+    width: 1020px;
+    border-collapse: collapse;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+th,td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+}
+.money{
+    background-color: deepskyblue;
+    border: 1px;
+    color: white;
+}
+.green{
+    background-color: darkolivegreen;
+    border: 1px;
+    color: white;
+}
+.red{
+    background-color: red;
+    border: 1px;
+    color: white;
+}
+.orange{
+    background-color: orangered;
+    border: 1px;
+}
+a{
+    text-decoration: none;
+}
+.comeBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cartegory{
+    padding-top:90px;
+    }
+.cartegory:hover {
+        background-color: rgb(207, 141, 207); ;
+    }

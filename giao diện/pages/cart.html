@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bảng với 6 cột</title>
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+img{
+    width:150px;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>ID</th>
+      <th>TÊN</th>
+      <th>HÌNH ẢNH</th>
+      <th>GIÁ</th>
+      <th class="quantity">SỐ LƯỢNG</th>
+      <th>THÀNH TIỀN</th>
+    </tr>
+  </thead>
+  <tbody id="tbody">
+    <tr>
+      <td id="stt">Dữ liệu 1</td>
+      <td id="names">Dữ liệu 2</td>
+      <td id="image"><img src="" alt=""></td>
+      <td id="price">Dữ liệu 4</td>
+      <td id="quantity">Dữ liệu 5</td>
+      <td id="total-cost">Dữ liệu 6</td>
+    </tr>
+    <tfoot>
+      <td >Total:</td>
+      <td id="cost" colspan="6">Total:</td>
+    </tfoot>
+</body>
+<script src="../js/cart.js"></script>
+</html>
